@@ -127,12 +127,44 @@ Use **Settings** menu for graphics/gameplay/control options.
 ---
 
 ## 🛠️ Modding & Extensions
-- Drop JS files into `scripts/mods/` with:
+
+- Drop JS files into `scripts/mods/` like this:
   ```js
-  export const metadata = { id: 'myMod', name: 'My Mod', description: '...' };
-  // ... your code
+  // Minimal JS mod example
+  export const metadata = {
+    id: 'helloWorld',
+    name: 'Hello World',
+    description: 'A sample mod that prints a message on game start.'
+  };
+
+  // This runs when the mod is loaded
+  export function onInit(game) {
+    game.log('Hello from your mod!');
+  }
+
+  // Optionally, react to game events
+  export function onEvent(name, data) {
+    if (name === 'playerJoin') {
+      game.log(`Welcome, ${data.playerName}!`);
+    }
+  }
   ```
-- Lua scripts in `scripts/lua/` with `init()` and `onEvent(name, data)`.
+
+- Lua scripts in `scripts/lua/` with `init()` and `onEvent(name, data)`:
+  ```lua
+  -- Minimal Lua mod example
+  function init(game)
+    game:log('Lua mod loaded!')
+  end
+
+  function onEvent(name, data)
+    if name == 'playerJoin' then
+      game:log('Welcome, ' .. data.playerName .. '!')
+    end
+  end
+  ```
+
+See the documentation or the `scripts/mods/` folder for more examples and API details.
 
 ---
 
