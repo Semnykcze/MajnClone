@@ -1,0 +1,8 @@
+// assets/blocks/bedrock.json
+{
+  "id": "block_bedrock",
+  "name": "Bedrock",
+  "description": "Neměnný, nerozbitelný základ podzemí.",
+  "maxStack": 64,
+  "requiredTier": 0
+}
