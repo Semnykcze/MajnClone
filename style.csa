@@ -1,0 +1,40 @@
+html, body { margin:0; padding:0; overflow:hidden; }
+#gameCanvas { display:block; width:100vw; height:100vh; }
+#menu, #settings, #networkUI, #inventory { position:absolute; inset:0; background:rgba(0,0,0,0.8); color:#fff; }
+.hidden { display:none; }
+#menu, #networkUI { background:rgba(0,0,0,0.5); }
+#menu h1, #settings h2, #inventory h2 { text-align:center; }
+.settings-tabs, .menu-buttons { display:flex; justify-content:center; gap:10px; margin:10px; }
+.tab-content { padding:10px; }
+.tab-content.hidden { display:none; }
+.tab-btn { padding:8px 12px; cursor:pointer; background:#333; color:#fff; border:none; }
+.tab-btn.selected { background:#555; }
+#applySettings, #craftButton, #startButton, #loadButton, #settingsButton,
+#hostButton, #joinButton, #closeSettings, #closeInventory {
+  display:block; margin:10px auto; padding:8px 16px; cursor:pointer;
+}
+#healthBar, #hungerBar { width:120px; height:12px; background:#444; margin:4px 0; }
+#health { background:#e74c3c; width:100%; height:100%; }
+#hunger { background:#f1c40f; width:100%; height:100%; }
+#hotbar { position:absolute; bottom:20px; left:50%; transform:translateX(-50%); display:flex; gap:6px; z-index:10; }
+.slot { width:48px; height:48px; background:rgba(0,0,0,0.5); border:2px solid rgba(255,255,255,0.3); box-sizing:border-box; cursor:pointer; }
+.slot.selected { border-color:#FFD700; }
+#inventory-grid, #crafting-grid { display:grid; gap:4px; background:#222; padding:4px; }
+#inventory-grid { grid-template-columns:repeat(9,40px); }
+#crafting-grid   { grid-template-columns:repeat(3,50px); }
+.inventory-slot, .craft-slot { background:#333; border:1px solid #555; display:flex; justify-content:center; align-items:center; font-size:.7em; cursor:pointer; }
+#craft-output { border:2px solid #FFD700; margin-top:10px; }
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(0,0,0,0.85);
+  color: #eee;
+  padding: 6px 8px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  max-width: 200px;
+  z-index: 1000;
+  display: none;
+  line-height: 1.2em;
+}
