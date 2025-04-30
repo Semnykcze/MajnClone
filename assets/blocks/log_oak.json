@@ -1,0 +1,8 @@
+// assets/blocks/log_oak.json
+{
+  "id": "block_log_oak",
+  "name": "Oak Log",
+  "description": "Kmen dubového stromu.",
+  "maxStack": 64,
+  "requiredTier": 0
+}
