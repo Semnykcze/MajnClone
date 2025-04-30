@@ -1,0 +1,8 @@
+// assets/blocks/sapling_oak.json
+{
+  "id": "block_sapling_oak",
+  "name": "Oak Sapling",
+  "description": "Mladá sazenice dubu, zasadíš a vyroste strom.",
+  "maxStack": 64,
+  "requiredTier": 0
+}
