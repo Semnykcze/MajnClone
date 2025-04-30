@@ -1,0 +1,8 @@
+// assets/blocks/stone.json
+{
+  "id": "block_stone",
+  "name": "Stone",
+  "description": "Obyčejný kamenný blok.",
+  "maxStack": 64,
+  "requiredTier": 1
+}
