@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mini Minecraft</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Menu -->
+  <div id="menu">
+    <h1>Mini Minecraft</h1>
+    <select id="modeSelect">
+      <option value="survival">Survival</option>
+      <option value="creative">Creative</option>
+      <option value="adventure">Adventure</option>
+    </select>
+    <button id="startButton">Start New Game</button>
+    <button id="loadButton" style="display:none;">Load Saved Game</button>
+    <button id="settingsButton">Settings</button>
+  </div>
+
+  <!-- Canvas -->
+  <canvas id="gameCanvas"></canvas>
+
+  <!-- Settings Overlay -->
+  <div id="settings" class="hidden">
+    <button id="closeSettings">✕</button>
+    <h2>Settings</h2>
+    <div class="settings-tabs">
+      <button class="tab-btn selected" data-tab="graphicsTab">Graphics</button>
+      <button class="tab-btn" data-tab="gameTab">Game</button>
+      <button class="tab-btn" data-tab="controlsTab">Controls</button>
+      <button class="tab-btn" data-tab="modsTab">Mods</button>
+    </div>
+
+    <div id="graphicsTab" class="tab-content">
+      <label>Resolution:
+        <select id="resolutionSelect"></select>
+      </label>
+      <label>Max FPS: <input type="number" id="maxFPS" min="30" max="240" value="60"></label>
+      <label><input type="checkbox" id="vsync" checked> VSync</label>
+      <fieldset>
+        <legend>Basic Effects</legend>
+        <label><input type="checkbox" id="toggleSSAO" checked> Ambient Occlusion</label>
+        <label><input type="checkbox" id="toggleBloom" checked> Bloom</label>
+        <label><input type="checkbox" id="toggleMotionBlur" checked> Motion Blur</label>
+        <label><input type="checkbox" id="toggleGodrays" checked> God Rays</label>
+        <label><input type="checkbox" id="toggleDoF" checked> Depth of Field</label>
+      </fieldset>
+      <fieldset>
+        <legend>Advanced Effects</legend>
+        <label><input type="checkbox" id="toggleSSR"> Screen-Space Reflections</label>
+        <label><input type="checkbox" id="togglePOM"> Parallax Occlusion Mapping</label>
+        <label><input type="checkbox" id="toggleWind"> Vegetation Wind Shader</label>
+        <label><input type="checkbox" id="toggleVolClouds"> Volumetric Clouds</label>
+        <label><input type="checkbox" id="toggleCSM"> Cascaded Shadow Maps</label>
+        <label><input type="checkbox" id="toggleTemporalSSAO"> Temporal SSAO</label>
+      </fieldset>
+      <label><input type="checkbox" id="toggleSimpleFluids"> Simple Fluid Rendering</label><br>
+      <label><input type="checkbox" id="fullscreenMode"> Fullscreen Mode</label>
+    </div>
+
+    <div id="gameTab" class="tab-content hidden">
+      <label>Day Length (min): <input type="number" id="dayLength" min="1" max="60" value="12"></label>
+      <label>Max World Height: <input type="number" id="maxHeight" min="4" max="32" value="8"></label>
+    </div>
+
+    <div id="controlsTab" class="tab-content hidden">
+      <label>Mouse Sensitivity: <input type="range" id="mouseSensitivity" min="0.1" max="2.0" step="0.1" value="1.0"></label>
+      <label><input type="checkbox" id="invertY"> Invert Y-axis</label>
+    </div>
+
+    <div id="modsTab" class="tab-content hidden">
+      <ul id="modsList"></ul>
+    </div>
+
+    <button id="applySettings">Apply</button>
+  </div>
+
+  <!-- HUD -->
+  <div id="hud">
+    <div id="healthContainer"><span>Health</span>
+      <div id="healthBar"><div id="health"></div></div>
+    </div>
+    <div id="hungerContainer"><span>Hunger</span>
+      <div id="hungerBar"><div id="hunger"></div></div>
+    </div>
+  </div>
+
+  <!-- Hotbar -->
+  <div id="hotbar">
+    ${Array.from({length:8},(_,i)=>`<div class="slot${i===0?' selected':''}" data-index="${i}"></div>`).join('')}
+  </div>
+
+  <!-- Inventory & Crafting -->
+  <div id="inventory" class="hidden">
+    <button id="closeInventory">✕</button>
+    <h2>Inventory</h2>
+    <div id="inventory-grid">
+      ${Array.from({length:27},(_,i)=>`<div class="inventory-slot" data-index="${i}"></div>`).join('')}
+    </div>
+    <h2>Crafting</h2>
+    <div id="crafting-grid">
+      ${Array.from({length:9},(_,i)=>`<div class="craft-slot" data-index="${i}"></div>`).join('')}
+    </div>
+    <button id="craftButton">Craft</button>
+    <div id="craft-output" class="inventory-slot"></div>
+  </div>
+
+  <!-- Multiplayer UI -->
+  <div id="networkUI" class="hidden">
+    <h3>Multiplayer</h3>
+    <button id="hostButton">Host Game</button>
+    <div>Your Peer ID: <span id="myPeerId"></span></div>
+    <input type="text" id="peerIdInput" placeholder="Enter Peer ID to join">
+    <button id="joinButton">Join Game</button>
+  </div>
+
+  <!-- Three.js + PeerJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/controls/PointerLockControls.js"></script>
+  <script src="https://unpkg.com/peerjs@1.3.2/dist/peerjs.min.js"></script>
+
+  <!-- Hlavní modul -->
+  <script type="module" src="./scripts/gameManager.js"></script>
+</body>
+</html>
