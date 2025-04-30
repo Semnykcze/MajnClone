@@ -15,6 +15,8 @@ export function initFluids(){ /* případné zdroje na začátku */ }
 
 export function updateFluids(delta){
   if(simpleMode) return;
+  
+  //TODO
   // pokročilá simulace: pády, rozliv, interakce
   // ... (identické kódové bloky jako dříve) ...
   renderFluids();
