@@ -1,0 +1,8 @@
+// assets/blocks/leaves_oak.json
+{
+  "id": "block_leaves_oak",
+  "name": "Oak Leaves",
+  "description": "Listí dubu, propouští světlo.",
+  "maxStack": 64,
+  "requiredTier": 0
+}
