@@ -1,0 +1,7 @@
+{
+  "id": "food_potato",
+  "name": "Potato",
+  "description": "Syrová brambora.",
+  "maxStack": 64,
+  "shelfLife": 1200
+}

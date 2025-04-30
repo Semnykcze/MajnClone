@@ -1,0 +1,13 @@
+{
+  "id": "carrot",
+  "seedItem": "seed_carrot",
+  "stages": [
+    { "blockId": "block_carrot_stage_0", "time": 100 },
+    { "blockId": "block_carrot_stage_1", "time": 200 },
+    { "blockId": "block_carrot_stage_2", "time": 300 },
+    { "blockId": "block_carrot_stage_3", "time": 400 }
+  ],
+  "harvest": { "itemId": "food_carrot", "count": 1 },
+  "validSeasons": ["Spring", "Summer", "Autumn", "Winter"],
+  "needsWater": true
+}

@@ -1,0 +1,7 @@
+{
+  "id": "food_bread",
+  "name": "Bread",
+  "description": "Čerstvě upečený chléb.",
+  "maxStack": 64,
+  "shelfLife": 1800
+}

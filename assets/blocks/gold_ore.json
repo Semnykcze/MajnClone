@@ -1,0 +1,7 @@
+{
+  "id": "block_gold_ore",
+  "name": "Gold Ore",
+  "description": "Ruda zlata, vzácný kov.",
+  "maxStack": 64,
+  "requiredTier": 2
+}

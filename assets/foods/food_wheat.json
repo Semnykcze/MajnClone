@@ -1,0 +1,7 @@
+{
+  "id": "food_wheat",
+  "name": "Wheat",
+  "description": "Základní potravina.",
+  "maxStack": 64,
+  "shelfLife": 600
+}

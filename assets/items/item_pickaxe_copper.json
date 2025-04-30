@@ -1,0 +1,8 @@
+{
+  "id": "item_pickaxe_copper",
+  "name": "Copper Pickaxe",
+  "description": "Rychlejší a odolnější než kamenný.",
+  "maxStack": 1,
+  "tier": 2,
+  "maxDurability": 200
+}

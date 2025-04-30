@@ -1,0 +1,8 @@
+{
+  "id": "craft_block_furnace",
+  "output": { "id": "block_furnace", "count": 1 },
+  "inputs": [
+    { "id": "block_stone", "count": 8 }
+  ],
+  "craftTime": 300
+}

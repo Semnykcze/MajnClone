@@ -1,0 +1,13 @@
+{
+  "id": "wheat",
+  "seedItem": "seed_wheat",
+  "stages": [
+    { "blockId": "block_wheat_stage_0", "time": 120 },
+    { "blockId": "block_wheat_stage_1", "time": 240 },
+    { "blockId": "block_wheat_stage_2", "time": 360 },
+    { "blockId": "block_wheat_stage_3", "time": 480 }
+  ],
+  "harvest": { "itemId": "food_wheat", "count": 1 },
+  "validSeasons": ["Spring", "Summer", "Autumn"],
+  "needsWater": true
+}

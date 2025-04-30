@@ -1,0 +1,8 @@
+{
+  "id": "item_pickaxe_wood",
+  "name": "Wooden Pickaxe",
+  "description": "Základní nástroj, rychlost 1×.",
+  "maxStack": 1,
+  "tier": 0,
+  "maxDurability": 60
+}

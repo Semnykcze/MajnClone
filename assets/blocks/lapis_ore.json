@@ -1,0 +1,7 @@
+{
+  "id": "block_lapis_ore",
+  "name": "Lapis Lazuli Ore",
+  "description": "Vzácná modrá ruda na barvení.",
+  "maxStack": 64,
+  "requiredTier": 2
+}

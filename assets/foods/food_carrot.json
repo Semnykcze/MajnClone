@@ -1,0 +1,7 @@
+{
+  "id": "food_carrot",
+  "name": "Carrot",
+  "description": "Čerstvá mrkev.",
+  "maxStack": 64,
+  "shelfLife": 900
+}

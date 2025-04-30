@@ -1,0 +1,7 @@
+{
+  "id": "block_uranium_ore",
+  "name": "Uranium Ore",
+  "description": "Vysokoenergetická ruda; manipuluj opatrně.",
+  "maxStack": 64,
+  "requiredTier": 3
+}

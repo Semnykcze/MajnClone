@@ -1,0 +1,6 @@
+{
+  "id": "item_copper_ingot",
+  "name": "Copper Ingot",
+  "description": "Zpracovaná měď, používaná pro nástroje.",
+  "maxStack": 64
+}

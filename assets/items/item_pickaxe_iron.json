@@ -1,0 +1,8 @@
+{
+  "id": "item_pickaxe_iron",
+  "name": "Iron Pickaxe",
+  "description": "Silný a odolný.",
+  "maxStack": 1,
+  "tier": 3,
+  "maxDurability": 500
+}

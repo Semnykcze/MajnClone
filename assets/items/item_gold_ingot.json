@@ -1,0 +1,6 @@
+{
+  "id": "item_gold_ingot",
+  "name": "Gold Ingot",
+  "description": "Zpracované zlato.",
+  "maxStack": 64
+}

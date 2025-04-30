@@ -1,0 +1,7 @@
+{
+  "id": "block_iron_ore",
+  "name": "Iron Ore",
+  "description": "Ruda železa, pro výrobu kovu.",
+  "maxStack": 64,
+  "requiredTier": 2
+}

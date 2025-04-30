@@ -1,0 +1,7 @@
+{
+  "id": "block_furnace",
+  "name": "Furnace",
+  "description": "Pec pro zpracování rud a jídla.",
+  "maxStack": 64,
+  "requiredTier": 1
+}

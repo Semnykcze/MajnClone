@@ -1,0 +1,18 @@
+{
+  "menu_start": "Začít novou hru",
+  "menu_load": "Načíst hru",
+  "settings": "Nastavení",
+  "toggleSSAO": "Ambientní Occlusion",
+  "toggleBloom": "Bloom",
+  "toggleMotionBlur": "Motion Blur",
+  "toggleGodrays": "God Rays",
+  "toggleDoF": "Hloubka ostrosti",
+  "toggleSSR": "Screen-Space Reflections",
+  "togglePOM": "Parallax Occlusion Mapping",
+  "toggleWind": "Vegetation Wind Shader",
+  "toggleVolClouds": "Volumetrické mraky",
+  "toggleCSM": "Kaskádové stínové mapy",
+  "toggleTemporalSSAO": "Temporal SSAO",
+  "toggleSimpleFluids": "Jednoduché fluidy",
+  "fullscreenMode": "Režim celé obrazovky"
+}

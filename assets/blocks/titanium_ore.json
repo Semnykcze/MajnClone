@@ -1,0 +1,7 @@
+{
+  "id": "block_titanium_ore",
+  "name": "Titanium Ore",
+  "description": "Lehký a odolný kov pro pokročilé nástroje.",
+  "maxStack": 64,
+  "requiredTier": 3
+}

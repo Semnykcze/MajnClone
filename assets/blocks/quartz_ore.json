@@ -1,0 +1,7 @@
+{
+  "id": "block_quartz_ore",
+  "name": "Quartz Ore",
+  "description": "Křemen, základ pro sklo a hodiny.",
+  "maxStack": 64,
+  "requiredTier": 0
+}

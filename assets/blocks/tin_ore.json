@@ -1,0 +1,7 @@
+{
+  "id": "block_tin_ore",
+  "name": "Tin Ore",
+  "description": "Ruda cínu, používá se pro slitiny a pájení.",
+  "maxStack": 64,
+  "requiredTier": 1
+}

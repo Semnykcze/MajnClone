@@ -1,0 +1,7 @@
+{
+  "id": "block_cobalt_ore",
+  "name": "Cobalt Ore",
+  "description": "Ruda kobaltu, používá se v bateriích a nátěrech.",
+  "maxStack": 64,
+  "requiredTier": 3
+}

@@ -1,0 +1,6 @@
+{
+  "id": "item_diamond_gem",
+  "name": "Diamond",
+  "description": "Vzácný drahokam.",
+  "maxStack": 64
+}

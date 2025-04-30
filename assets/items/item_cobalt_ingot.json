@@ -1,0 +1,6 @@
+{
+  "id": "item_cobalt_ingot",
+  "name": "Cobalt Ingot",
+  "description": "Používá se v bateriích.",
+  "maxStack": 64
+}

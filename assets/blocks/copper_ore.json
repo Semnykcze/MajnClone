@@ -1,0 +1,7 @@
+{
+  "id": "block_copper_ore",
+  "name": "Copper Ore",
+  "description": "Ruda mědi, základ pro výrobu měděných ingotů.",
+  "maxStack": 64,
+  "requiredTier": 2
+}

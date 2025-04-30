@@ -1,0 +1,13 @@
+{
+  "id": "potato",
+  "seedItem": "seed_potato",
+  "stages": [
+    { "blockId": "block_potato_stage_0", "time": 110 },
+    { "blockId": "block_potato_stage_1", "time": 220 },
+    { "blockId": "block_potato_stage_2", "time": 330 },
+    { "blockId": "block_potato_stage_3", "time": 440 }
+  ],
+  "harvest": { "itemId": "food_potato", "count": 1 },
+  "validSeasons": ["Spring", "Summer", "Autumn"],
+  "needsWater": true
+}

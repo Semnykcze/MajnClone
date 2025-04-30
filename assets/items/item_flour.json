@@ -1,0 +1,6 @@
+{
+  "id": "item_flour",
+  "name": "Flour",
+  "description": "Mouka pro pečení chleba.",
+  "maxStack": 64
+}

@@ -1,0 +1,6 @@
+{
+  "id": "item_redstone_dust",
+  "name": "Redstone Dust",
+  "description": "Prášek pro elektrické obvody.",
+  "maxStack": 64
+}

@@ -1,0 +1,7 @@
+{
+  "id": "block_bauxite_ore",
+  "name": "Bauxite Ore",
+  "description": "Ruda hliníku, základ pro výrobu hliníku.",
+  "maxStack": 64,
+  "requiredTier": 1
+}

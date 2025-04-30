@@ -1,0 +1,6 @@
+{
+  "id": "item_lithium_compound",
+  "name": "Lithium Compound",
+  "description": "Prášek pro baterie.",
+  "maxStack": 64
+}

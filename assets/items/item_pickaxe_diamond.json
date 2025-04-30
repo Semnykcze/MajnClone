@@ -1,0 +1,8 @@
+{
+  "id": "item_pickaxe_diamond",
+  "name": "Diamond Pickaxe",
+  "description": "Nejrychlejší a odolný nástroj.",
+  "maxStack": 1,
+  "tier": 4,
+  "maxDurability": 2000
+}

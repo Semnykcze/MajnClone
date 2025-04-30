@@ -1,0 +1,7 @@
+{
+  "id": "block_nickel_ore",
+  "name": "Nickel Ore",
+  "description": "Ruda niklu, klíčová pro nerezové slitiny.",
+  "maxStack": 64,
+  "requiredTier": 2
+}

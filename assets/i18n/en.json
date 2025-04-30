@@ -1,0 +1,18 @@
+{
+  "menu_start": "Start New Game",
+  "menu_load": "Load Game",
+  "settings": "Settings",
+  "toggleSSAO": "Ambient Occlusion",
+  "toggleBloom": "Bloom",
+  "toggleMotionBlur": "Motion Blur",
+  "toggleGodrays": "God Rays",
+  "toggleDoF": "Depth of Field",
+  "toggleSSR": "Screen-Space Reflections",
+  "togglePOM": "Parallax Occlusion Mapping",
+  "toggleWind": "Vegetation Wind Shader",
+  "toggleVolClouds": "Volumetric Clouds",
+  "toggleCSM": "Cascaded Shadow Maps",
+  "toggleTemporalSSAO": "Temporal SSAO",
+  "toggleSimpleFluids": "Simple Fluid Rendering",
+  "fullscreenMode": "Fullscreen Mode"
+}

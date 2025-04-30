@@ -1,0 +1,7 @@
+{
+  "id": "block_redstone_ore",
+  "name": "Redstone Ore",
+  "description": "Elektricky vodivá ruda pro obvody.",
+  "maxStack": 64,
+  "requiredTier": 3
+}

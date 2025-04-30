@@ -1,0 +1,8 @@
+{
+  "id": "item_pickaxe_stone",
+  "name": "Stone Pickaxe",
+  "description": "Rychlejší než dřevěný.",
+  "maxStack": 1,
+  "tier": 1,
+  "maxDurability": 132
+}

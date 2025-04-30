@@ -1,0 +1,9 @@
+{
+  "id": "craft_bread",
+  "output": { "id": "food_bread", "count": 1 },
+  "inputs": [
+    { "id": "item_flour", "count": 3 },
+    { "id": "item_water_bucket", "count": 1 }
+  ],
+  "craftTime": 180
+}

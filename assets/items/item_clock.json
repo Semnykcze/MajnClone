@@ -1,0 +1,6 @@
+{
+  "id": "item_clock",
+  "name": "Clock",
+  "description": "Ukazuje den/noc (stiskni T).",
+  "maxStack": 1
+}

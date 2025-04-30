@@ -1,0 +1,7 @@
+{
+  "id": "block_emerald_ore",
+  "name": "Emerald Ore",
+  "description": "Velmi vzácná ruda pro obchodování.",
+  "maxStack": 64,
+  "requiredTier": 4
+}

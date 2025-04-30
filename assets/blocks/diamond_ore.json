@@ -1,0 +1,7 @@
+{
+  "id": "block_diamond_ore",
+  "name": "Diamond Ore",
+  "description": "Nejvzácnější drahokam v hlubinách.",
+  "maxStack": 64,
+  "requiredTier": 4
+}

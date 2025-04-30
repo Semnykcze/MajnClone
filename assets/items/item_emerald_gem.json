@@ -1,0 +1,6 @@
+{
+  "id": "item_emerald_gem",
+  "name": "Emerald",
+  "description": "Vzácný drahokam pro obchod.",
+  "maxStack": 64
+}

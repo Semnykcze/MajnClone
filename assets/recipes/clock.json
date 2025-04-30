@@ -1,0 +1,9 @@
+{
+  "id": "craft_item_clock",
+  "output": { "id": "item_clock", "count": 1 },
+  "inputs": [
+    { "id": "item_quartz_crystal", "count": 4 },
+    { "id": "item_iron_ingot", "count": 1 }
+  ],
+  "craftTime": 120
+}

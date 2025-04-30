@@ -1,0 +1,7 @@
+{
+  "id": "block_coal_ore",
+  "name": "Coal Ore",
+  "description": "Uhlí v hornině, sbírej pro palivo.",
+  "maxStack": 64,
+  "requiredTier": 1
+}

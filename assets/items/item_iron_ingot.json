@@ -1,0 +1,6 @@
+{
+  "id": "item_iron_ingot",
+  "name": "Iron Ingot",
+  "description": "Zpracované železo.",
+  "maxStack": 64
+}

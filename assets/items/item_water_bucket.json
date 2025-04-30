@@ -1,0 +1,6 @@
+{
+  "id": "item_water_bucket",
+  "name": "Water Bucket",
+  "description": "Kbelík plný vody.",
+  "maxStack": 1
+}

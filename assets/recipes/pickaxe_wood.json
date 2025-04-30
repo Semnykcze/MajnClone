@@ -1,0 +1,9 @@
+{
+  "id": "craft_item_pickaxe_wood",
+  "output": { "id": "item_pickaxe_wood", "count": 1 },
+  "inputs": [
+    { "id": "block_dirt", "count": 2 },
+    { "id": "block_stone", "count": 1 }
+  ],
+  "craftTime": 120
+}
