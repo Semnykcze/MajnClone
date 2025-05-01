@@ -1,7 +1,7 @@
 /**
  * worldManager.js – správa parametrů světa a (re)generace
  */
-import { generateWorld } from './world.js';
+import { MapGenerator } from './mapGenerator.js';
 import * as clouds       from './clouds.js';
 import { setDayLength }  from './modes.js';
 
@@ -11,9 +11,22 @@ export const config = {
 
 export function initWorld(params={}) {
   Object.assign(config,params);
-  generateWorld(config.seed);
+  setDayLength(config.dayLength);
+  const gen = new MapGenerator({
+    width: config.worldSize,
+    depth: config.worldSize,
+    maxHeight: config.maxHeight,
+    seed: config.seed
+  });
+  gen.generate();
+scene.children.filter(o=>o.userData.isBlock).forEach(o=>scene.remove(o));
+  gen.blocks.forEach(b=>{
+    placeBlock(b.x, b.y, b.z, b.blockId);
+  });
+
   clouds.initClouds();
   setDayLength(config.dayLength);
+
 }
 
 export function regenerateWorld() {
